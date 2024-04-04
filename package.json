@@ -1,0 +1,19 @@
+{
+  "name": "newnode",
+  "version": "1.0.0",
+  "description": "\"learning node.js\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "nodemon server_using_node.js"
+  },
+  "author": "Aman",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
